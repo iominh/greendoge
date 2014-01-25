@@ -25,6 +25,16 @@ html, body {
 	min-height: 250px;
 }
 
+#bar .stats h1 {
+    width: 50%;
+    margin: 0 auto;
+}
+
+#bar .daily h1 {
+    width: 80%;
+    margin: 0 auto;
+}
+
 #bar .daily {
 	margin: 0px 20px 20px 20px;
 	border: 2px solid black;
@@ -45,6 +55,7 @@ html, body {
 	left: 0px;
 	right: 0px;
 	bottom: 155px;
+    display: none;
 
 }
 
@@ -89,6 +100,8 @@ html, body {
 	font-size: 3em;
 	text-align: center;
 	line-height: 150px;
+
+    display: none;
 }
 
 #big .footer span {
@@ -96,6 +109,44 @@ html, body {
 	color: green;
 }
 
+.center {
+    width: 50%;
+    margin: 0 auto;
+}
+
+.center h1 {
+    padding: 5em 0 0 0;
+}
+.center h2 {
+    padding: 0;
+}
+
+.btn-primary {
+    color: #333333;
+    background-color: #e7e7e7;
+    border-color: #dadada;
+}
+
+.btn {
+    display: inline-block;
+    padding: 6px 12px;
+    margin-bottom: 0;
+    font-size: 15px;
+    font-weight: normal;
+    line-height: 1.428571429;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    cursor: pointer;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 0;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+}
 
 /* Colors */
 
