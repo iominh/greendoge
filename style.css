@@ -1,0 +1,112 @@
+html, body {
+	height: 100%;
+	width: 100%;
+	font-family: 'Comic Sans MS', cursive, sans-serif;
+}
+
+#bar {
+	position: absolute;
+	width: 350px;
+	border-left: 5px solid black;
+	top: 0px;
+	right: 0px;
+	bottom: 0px;
+	z-index: 11;
+	background: rgba(255,255,255,.8);
+}
+
+#bar .headers {
+	text-align: center;
+}
+
+#bar .stats {
+	margin: 20px;
+	border: 2px solid black;
+	min-height: 250px;
+}
+
+#bar .daily {
+	margin: 0px 20px 20px 20px;
+	border: 2px solid black;
+	min-height: 250px;
+}
+
+#big {
+	position: absolute;
+	top: 0px; 
+	bottom: 0px;
+	right: 355px;
+	left: 0px;
+}
+
+#big .map {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	right: 0px;
+	bottom: 155px;
+
+}
+
+#big .map #map-img {
+	height: 100%;
+	display: block;
+    margin-left: auto;
+    margin-right: auto
+}
+
+#big .map .car {
+	position: absolute;
+	z-index: 50;
+	top: 100px;
+	left: 100px;
+	padding: 10px;
+	border-radius: 10px;
+	display: none;
+}
+
+#big .map .car img {
+	height: 40px;
+	width: 40px;
+}
+
+#big .map .track {
+	border-bottom: 5px solid green;
+	position: absolute;
+	z-index: 10;
+	left: 10px;
+	top: 20px;
+}
+
+#big .footer {
+	position: absolute;
+	bottom: 0px;
+	left: 0px;
+	right: 0px;
+	height: 150px;
+	border-top: 5px solid black;
+
+	font-size: 3em;
+	text-align: center;
+	line-height: 150px;
+}
+
+#big .footer span {
+	font-weight: bold;
+	color: green;
+}
+
+
+/* Colors */
+
+.green {
+	background: rgba(0, 128, 0, .5);
+}
+
+.red {
+	background: rgba(128, 0, 0, .5);
+}
+
+.blue {
+	background: rgba(0, 0, 255, .5);
+}
