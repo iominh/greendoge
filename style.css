@@ -55,7 +55,6 @@ html, body {
 	left: 0px;
 	right: 0px;
 	bottom: 155px;
-    display: none;
 
 }
 
@@ -100,8 +99,6 @@ html, body {
 	font-size: 3em;
 	text-align: center;
 	line-height: 150px;
-
-    display: none;
 }
 
 #big .footer span {
